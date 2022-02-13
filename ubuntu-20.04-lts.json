@@ -1,0 +1,15 @@
+{
+  "_comment": "Build with `packer build -var-file=ubuntu-20.04-lts.json ubuntu.json`",
+  "headless": "false",
+  "vm_name": "ubuntu2004-lts",
+  "version": "20.04.3.01",
+  "cpus": "1",
+  "disk_size": "10240",
+  "iso_checksum": "sha256:f8e3086f3cea0fb3fefb29937ab5ed9d19e767079633960ccb50e76153effc98",
+  "iso_name": "ubuntu-20.04.3-live-server-amd64.iso",
+  "iso_url": "http://releases.ubuntu.com/20.04/ubuntu-20.04.3-live-server-amd64.iso",
+  "memory": "1024",
+  "ssh_username": "vagrant",
+  "ssh_password": "vagrant",
+  "virtualbox_guest_os_type": "Ubuntu_64"
+}
